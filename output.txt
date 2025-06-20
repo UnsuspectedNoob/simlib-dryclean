@@ -1,0 +1,45 @@
+
+
+       --------------------------------------------------
+               Dry-cleaning System Simulation Report     
+       --------------------------------------------------
+
+Mean interarrival time: 10.00 minutes
+Simulation duration: 720.00 minutes
+
+System Time for Suits, Undamaged(1) and Damaged(2):
+------------------------------------------------
+
+ sampst                        Number
+variable                         of
+ number       Average          values           Maximum         Minimum
+________________________________________________________________________
+
+    1         48.4795          74.0000          91.0962          3.85547 
+
+    2         57.5451          9.00000          88.4998          28.9528 
+________________________________________________________________________
+
+
+
+Queue Lengths and Server Utilization:
+--------------------------------------
+
+Queue Statistics:
+S1_Q               | Avg:  2.133 | Max: 9
+S2_Q               | Avg:  0.209 | Max: 3
+S3_Q               | Avg:  0.534 | Max: 4
+Jacket_Q (S4_JQ)   | Avg:  1.532 | Max: 7
+Pants_Q (S4_PQ)    | Avg:  1.124 | Max: 6
+S5_Q               | Avg:  -     | Max:  -
+
+Server Utilization (Avg should be ≤ 1):
+Server 1           | Avg:  0.737 | Max: 1
+Server 2           | Avg:  0.414 | Max: 1
+Server 3           | Avg:  0.496 | Max: 1
+Server 4           | Avg:  0.600 | Max: 1
+Server 5           | Avg:  0.093 | Max: 1
+
+Total suits accepted into system: 84
+Total suits successfully processed: 83
+Simulation ended at time: 720.00 minutes
